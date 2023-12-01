@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<style>
+    .img_scale{
+        transition:all .3s ease;
+    }
+    .img_scale:hover{
+        transform: scale(1.5);
+    }
+</style>
+
+<body>
+
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <nav class="nav">
+                        <a class="nav-link active" aria-current="page" href="/">Главная</a>
+                        <a class="nav-link" href="/products.html">Ассортимент</a>
+                        <a class="nav-link" href="/basket.html">Корзина</a>
+                        <a class="nav-link" href="/create-order.html">Оформление заказа</a>
+                        <a class="nav-link" href="/will-be.html">Скоро будет</a>
+                        <a class="nav-link" href="/contacts.html">Контакты</a>
+                        <a class="nav-link" href="/about-us.html">Наша команда</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+
+    <section class="section_slider">
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="/img/1672734608_pro-dachnikov-com-p-sushi-na-dom-foto-35.jpg" class="img_slider" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="/img/2.-gotovye-sushi.jpg" class="img_slider" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="/img/123.jpeg" class="img_slider" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="img/kartinki-sushi-18.jpeg" class="img_slider" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="/img/Mezhdunarodnyj-den-sushi-18-iyunya.jpg" class="img_slider" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="/img/Mezhdunarodnyj-den-sushi-18-iyunya.jpg" class="img_slider" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="/img/Mezhdunarodnyj-den-sushi-18-iyunya.jpg" class="img_slider" alt="">
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-scrollbar"></div>
+        </div>
+    </section>
+
+
+
+    <section class="section_fedback mt-5 mb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 mb-3">
+                    <h2>Отзывы</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="wrapper_stories_circle ">
+                        <div class="stories_circle_item" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            <img src="/img/5.jpg" alt="">
+                        </div>
+                        <div class="stories_circle_item" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            <img src="/img/1.jpg" alt="">
+                        </div>
+                        <div class="stories_circle_item" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            <img src="/img/2.jpg" alt="">
+                        </div>
+                        <div class="stories_circle_item" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            <img src="/img/3.jpg" alt="">
+                        </div>
+                        <div class="stories_circle_item" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            <img src="/img/4.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section_list_products mar_castom">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="mb-3">Популярные блюда</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-lg-3">
+                    <div class="card">
+                        <img class="card-img-top" src="/img/6.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h4 class="card-title">Ролл Дуэт</h4>
+                            <p class="card-text">
+                                угорь, лосось, сливочный сыр, огурец, унаги соус, кунжут
+                            </p>
+                            <a href="/product.html" class="btn btn-primary">Заказать</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-3">
+                    <div class="card">
+                        <img class="card-img-top" src="/img/7.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h4 class="card-title">Ролл Оригами</h4>
+                            <p class="card-text">
+                                запеченый лосось, икра масаго, сливочный сыр
+                            </p>
+                            <a href="/product.html" class="btn btn-primary">Заказать</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-3">
+                    <div class="card">
+                        <img class="card-img-top" src="/img/8.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h4 class="card-title">Ролл Микава</h4>
+                            <p class="card-text">
+                                креветка в темпуре, сливочный сыр, огурец, икра масаго
+                            </p>
+                            <a href="/product.html" class="btn btn-primary">Заказать</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-3">
+                    <div class="card">
+                        <img class="card-img-top" src="/img/1.jpeg" alt="Card image cap">
+                        <div class="card-body">
+                            <h4 class="card-title">Ролл Банзай</h4>
+                            <p class="card-text">
+                                сливочный сыр,японский омлет, лосось
+                            </p>
+                            <a href="/product.html" class="btn btn-primary">Заказать</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-3">
+                    <div class="card">
+                        <img class="card-img-top" src="/img/2a-1.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h4 class="card-title">Курица в терияки соусе с рисом</h4>
+                            <p class="card-text">
+                                курица, рис, лук репчатый, морковь, кабачок, кукуруза
+                            </p>
+                            <a href="/product.html" class="btn btn-primary">Заказать</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-3">
+                    <div class="card">
+                        <img class="card-img-top" src="/img/2a-1.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h4 class="card-title">Курица в терияки соусе с рисом</h4>
+                            <p class="card-text">
+                                краб сурими, огурец, майонез, икра масаго
+                            </p>
+                            <a href="/product.html" class="btn btn-primary">Заказать</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-3">
+                    <div class="card">
+                        <img class="card-img-top" src="/img/2a-1.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h4 class="card-title">Курица в терияки соусе с рисом</h4>
+                            <p class="card-text">
+                                лосось, креветка, икра масаго, сливочный сыр, огурец
+                            </p>
+                            <a href="/product.html" class="btn btn-primary">Заказать</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-3">
+                    <div class="card">
+                        <img class="card-img-top" src="/img/2a-1.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <h4 class="card-title">Курица в терияки соусе с рисом</h4>
+                            <p class="card-text">
+                                креветка в темпуре, спайс соус, огурец.
+                            </p>
+                            <a href="/product.html" class="btn btn-primary">Заказать</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="section_sale mar_castom">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="mb-3">Скидки закончаться через <span id="counter_sale"></span></h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="row">
+                    <div class="col-12 col-lg-3">
+                        <div class="card">
+                            <img class="card-img-top" src="/img/9.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-title">Ролл Аляска</h4>
+                                <p class="card-text">
+                                    курица, рис, лук репчатый, морковь, кабачок, кукуруза
+                                </p>
+
+                                <a href="/product.html" class="btn btn-primary">Заказать</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-3">
+                        <div class="card">
+                            <img class="card-img-top" src="/img/10.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-title">Ролл Мидори</h4>
+                                <p class="card-text">
+                                    курица, рис, лук репчатый, морковь, кабачок, кукуруза
+                                </p>
+                                <a href="/product.html" class="btn btn-primary">Заказать</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-3">
+                        <div class="card">
+                            <img class="card-img-top" src="img/11.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-title">Ролл Канада</h4>
+                                <p class="card-text">
+                                    курица, рис, лук репчатый, морковь, кабачок, кукуруза
+                                </p>
+                                <a href="/product.html" class="btn btn-primary">Заказать</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-3">
+                        <div class="card">
+                            <img class="card-img-top" src="/img/12.jpeg" alt="Card image cap">
+                            <div class="card-body">
+                                <h4 class="card-title">Ролл Майями</h4>
+                                <p class="card-text">
+                                    курица, рис, лук репчатый, морковь, кабачок, кукуруза
+                                </p>
+                                <a href="/product.html" class="btn btn-primary">Заказать</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+ <section>
+     <div class="container">
+         <div class="row">
+             <div class="col-12">
+                 <ul class="nav nav-tabs mb-3" id="ex1" role="tablist">
+                     <li class="nav-item" role="presentation">
+                         <a
+                                 class="nav-link active"
+                                 id="ex1-tab-1"
+                                 data-toggle="tab"
+                                 href="#ex1-tabs-1"
+                                 role="tab"
+                                 aria-controls="ex1-tabs-1"
+                                 aria-selected="true"
+                         >Tab 1</a
+                         >
+                     </li>
+                     <li class="nav-item" role="presentation">
+                         <a
+                                 class="nav-link"
+                                 id="ex1-tab-2"
+                                 data-toggle="tab"
+                                 href="#ex1-tabs-2"
+                                 role="tab"
+                                 aria-controls="ex1-tabs-2"
+                                 aria-selected="false"
+                         >Tab 2</a
+                         >
+                     </li>
+                     <li class="nav-item" role="presentation">
+                         <a
+                                 class="nav-link"
+                                 id="ex1-tab-3"
+                                 data-toggle="tab"
+                                 href="#ex1-tabs-3"
+                                 role="tab"
+                                 aria-controls="ex1-tabs-3"
+                                 aria-selected="false"
+                         >Tab 3</a
+                         >
+                     </li>
+                 </ul>
+                 <div class="tab-content" id="ex1-content">
+                     <div
+                             class="tab-pane fade show active"
+                             id="ex1-tabs-1"
+                             role="tabpanel"
+                             aria-labelledby="ex1-tab-1"
+                     >
+                         <p>Сет 1</p>
+                         <img src="img/222.jpg" width="200">
+                     </div>
+                     <div class="tab-pane fade" id="ex1-tabs-2" role="tabpanel" aria-labelledby="ex1-tab-2">
+                         <p>Сет 2</p>
+                         <img src="img/333.jpg" width="200">
+                     </div>
+                     <div class="tab-pane fade" id="ex1-tabs-3" role="tabpanel" aria-labelledby="ex1-tab-3">
+                         <p>Сет 3</p>
+                         <img src="img/444.jpg" width="200">
+                     </div>
+                 </div>
+             </div>
+         </div>
+
+         <div class="row">
+             <div class="col-12">
+                 <label for="customRange1" class="form-label">Example range</label>
+                 <input type="range" class="form-range" id="customRange1">
+             </div>
+         </div>
+
+         <div class="row">
+             <div class="col-12">
+                 <div class="wrapper_img_scale">
+                     <img src="img/12.jpeg" class="img_scale" width="200">
+                 </div>
+
+             </div>
+         </div>
+     </div>
+ </section>
+
+    <section class="section_form_fedback">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 d-flex justify-content-center">
+                    <h2 class="mb-3">Обратная связь</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-12 col-lg-4">
+                    <form action="">
+                        <input type="email" class="form-control mb-2" placeholder="E-mail">
+                        <input type="text" class="form-control mb-2" placeholder="Ваше обращение">
+                        <button type="submit" class="btn btn-success">Отправить</button>
+
+                    </form>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12">
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModal" aria-modal="true"
+        role="dialog">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <div class="description_modal">Вкусные роллы. Очень понравились запеченные. Все роллы большие. Вок очень вкусный. Персонал вежливый.
+                        Ожидание не долгое, даже если пробки, карьеры стараются доставить даже немного раньше, с учётом того, что заказываем вечером на Суворовский.</div>
+                    <div class="line"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/cdbootstrap/js/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/cdbootstrap/js/cdb.min.js"></script>
+
+
+
+<script>
+    let ex1_tab_1 = document.getElementById('ex1-tab-1')
+    let ex1_tabs_1 = document.getElementById('ex1-tabs-1')
+    let ex1_tab_2 = document.getElementById('ex1-tab-2')
+    let ex1_tabs_2 = document.getElementById('ex1-tabs-2')
+    let ex1_tab_3 = document.getElementById('ex1-tab-3')
+    let ex1_tabs_3 = document.getElementById('ex1-tabs-3')
+
+    ex1_tab_1.addEventListener('click', ()=>{
+        cleartab()
+        ex1_tab_1.classList.add('active')
+        cleartabs()
+        ex1_tabs_1.classList.add('active')
+        ex1_tabs_1.classList.add('show')
+    })
+    ex1_tab_2.addEventListener('click', ()=>{
+        cleartab()
+        ex1_tab_2.classList.add('active')
+        cleartabs()
+        ex1_tabs_2.classList.add('active')
+        ex1_tabs_2.classList.add('show')
+    })
+    ex1_tab_3.addEventListener('click', ()=>{
+        cleartab()
+        cleartabs()
+        ex1_tab_3.classList.add('active')
+        ex1_tabs_3.classList.add('active')
+        ex1_tabs_3.classList.add('show')
+    })
+
+
+    function cleartab(){
+        document.querySelectorAll('.nav-link').forEach(element=>{
+            element.classList.remove('active')
+        })
+    }
+
+    function cleartabs(){
+        document.querySelectorAll('.tab-pane').forEach(element=>{
+            element.classList.remove('active')
+            element.classList.remove('show')
+        })
+    }
+
+</script>
+
+<script>
+
+    const swiper = new Swiper('.swiper', {
+        // Optional parameters
+        direction: 'horizontal',
+        loop: true,
+        slidesPerView: 3,
+        autoplay: {
+            delay: 2000,
+        },
+        effect:'coverflow',
+
+        // If we need pagination
+        pagination: {
+            el: '.swiper-pagination',
+        },
+
+        // Navigation arrows
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+
+        // And if we need scrollbar
+        scrollbar: {
+            el: '.swiper-scrollbar',
+        },
+    });
+
+
+    function saleCounter(params) {
+        let countDownDate = new Date("2023-12-31 00:00:00").getTime();
+
+        let x = setInterval(function () {
+            let now = new Date().getTime();
+            let distance = countDownDate - now;
+            let days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            let hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            let minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            let seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            document.getElementById(params).innerHTML = days + "д " + hours + "ч "
+                + minutes + "м " + seconds + "с ";
+
+        }, 1000);
+    }
+    saleCounter('counter_sale')
+
+</script>
+
+</html>
